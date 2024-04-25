@@ -1,0 +1,22 @@
+.catalog_container {
+
+}
+
+.sorting {
+}
+
+.catalog {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    max-width: 890px;
+}
+
+.catalog_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}

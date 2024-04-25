@@ -1,0 +1,32 @@
+@import 'src/assets/styles/colors';
+
+.contacts_wrapper {
+    margin-top: 28px;
+
+    .contacts_title {
+        color: $black-100;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 40px;
+    }
+
+    .contacts_subtitle {
+        color: $black-100;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 32px;
+    }
+
+    .container {
+        margin-top: 35px;
+    }
+
+    .banner {
+        margin-top: 48px;
+        margin-bottom: 62px;
+    }
+}

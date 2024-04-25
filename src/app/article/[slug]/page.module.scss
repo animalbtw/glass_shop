@@ -1,0 +1,121 @@
+@import 'src/assets/styles/colors';
+
+.wrapper {
+    width: 100%;
+}
+
+.container_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.page_title {
+    width: 100%;
+    height: 386px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $white-background-gradient;
+    position: relative;
+}
+
+.image_container {
+    position: absolute;
+    mix-blend-mode: darken;
+}
+
+.page_title_container {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.breadcrumbs {
+    margin-top: 27px;
+}
+
+.title_content {
+    margin-top: 189px;
+    color: $black-100;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.page_subtitle {
+    background: $background-gradient;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 61px 0;
+}
+
+.page_subtitle_container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.subtitle_content {
+    color: $white-100;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    max-width: 668px;
+}
+
+.chess {
+    margin-top: 62px;
+}
+
+.image_banner {
+    position: relative;
+    width: 100%;
+    height: 430px;
+    margin-top: 62px;
+}
+
+.benefits {
+    margin-top: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 44px 62px;
+    border-radius: 14px;
+    background: $background-gradient;
+    list-style-position: outside;
+
+    .benefit {
+        &:not(:last-child) {
+            margin-bottom: 32px;
+        }
+        color: $white-100;
+        .benefit_text {
+            max-width: 481px;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%;
+            color: $white-100;
+        }
+    }
+}
+
+.placeholder_images {
+    margin-top: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner {
+    margin: 62px 0;
+}

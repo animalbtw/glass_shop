@@ -1,0 +1,36 @@
+@import 'src/assets/styles/colors';
+
+.wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 46px;
+}
+
+.title_block {
+
+}
+
+.title {
+    color: $black-100;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.image {
+    margin-top: 160px;
+    position: relative;
+    width: 556px;
+    height: 430px;
+}
+
+.description {
+    max-width: 558px;
+    color: $black-100;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}

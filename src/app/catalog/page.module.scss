@@ -1,0 +1,19 @@
+@import "src/assets/styles/colors";
+
+.wrapper {
+    margin-top: 27px;
+}
+
+.page_title {
+    margin-top: 40px;
+    color: $black-100;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container {
+    margin: 32px 0 105px 0;
+    display: flex;
+}

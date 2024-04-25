@@ -1,0 +1,43 @@
+@import 'src/assets/styles/colors';
+
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.nav_back {
+    cursor: pointer;
+    position: relative;
+    margin-right: 8px;
+    width: 13px;
+    height: 11px;
+}
+
+.crumb {
+    cursor: pointer;
+    gap: 0;
+    color: $white-10;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.crumb_active {
+    gap: 0;
+    color: $black-100;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: default;
+}
+
+.divider {
+    position: relative;
+    width: 11px;
+    height: 7px;
+    padding: 0 10px;
+}

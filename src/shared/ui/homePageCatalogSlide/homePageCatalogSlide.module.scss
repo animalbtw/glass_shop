@@ -1,0 +1,69 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.wrapper_image {
+  position: relative;
+  width: 100%;
+  mix-blend-mode: darken;
+
+  @media (min-width: 358px) {
+    max-width: 266px;
+    height: 165px;
+  }
+  @media (min-width: 768px) {
+    max-width: 291px;
+    height: 165px;
+  }
+  @media (min-width: 1024px) {
+    max-width: 214px;
+    height: 139px;
+  }
+  @media (min-width: 1366px) {
+    max-width: 285px;
+    height: 186px;
+  }
+  @media (min-width: 1440px) {
+    max-width: 304px;
+    height: 186px;
+  }
+  @media (min-width: 1920px) {
+    max-width: 424px;
+    height: 236px;
+  }
+  @media (min-width: 2560px) {
+    max-width: 565px;
+    height: 310px;
+  }
+}
+
+.article {
+  color: #282828;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.name {
+  color: #282828;
+  text-align: center;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.price {
+  color: #282828;
+  text-align: center;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

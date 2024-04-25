@@ -1,0 +1,30 @@
+.tabs {
+    display: flex;
+    gap: 24px;
+}
+
+.top_tabs {
+
+}
+
+.bottom_tabs {
+    margin-top: 24px;
+}
+
+
+.content {
+    margin-top: 44px;
+    display: flex;
+}
+
+.map {
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    min-width: 450px;
+    margin-left: 80px;
+    width: fit-content;
+    gap: 16px;
+}

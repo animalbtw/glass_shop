@@ -1,0 +1,44 @@
+@import 'src/assets/styles/colors';
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.wrapper {
+    cursor: pointer;
+    height: 42px;
+    padding: 10px 22px;
+    background: $white-100;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.type_icon {
+    margin-right: 14px;
+}
+
+.type {
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: $black-100;
+}
+
+.toggle_icon {
+    margin-left: 8px;
+}
+
+.toggle {
+    position: absolute;
+    top: 52px;
+    z-index: 10;
+}

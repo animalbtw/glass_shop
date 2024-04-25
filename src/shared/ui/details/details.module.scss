@@ -1,0 +1,55 @@
+@import 'src/assets/styles/colors';
+
+.wrapper {
+    border-radius: 11px;
+    background: $white-100;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 286px;
+    min-height: 49px;
+    padding: 18px 17px;
+}
+
+.title_block {
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.wrapper:hover {
+    .title {
+        color: $primary-10;
+    }
+}
+
+.trigger {
+    margin-right: 10px;
+}
+
+.trigger_active {
+    transform: rotate(180deg);
+}
+
+.title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: $black-100;
+}
+
+.title_active {
+    color: $black-100;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.body {
+    margin-top: 24px;
+}

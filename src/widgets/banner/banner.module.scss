@@ -1,0 +1,48 @@
+@import 'src/assets/styles/colors';
+
+.banner {
+    width: 100%;
+    border-radius: 14px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.info_block {
+    padding: 44px 38px;
+}
+
+.image_block {
+    mix-blend-mode: darken;
+    border-radius: 14px;
+}
+
+.title {
+    color: $black-100;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.title_dark {
+    color: $white-100;
+}
+.description {
+    margin-top: 28px;
+    overflow: hidden;
+    color: $black-100;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    max-width: 366px;
+}
+.description_dark {
+    color: $white-100;
+}
+.action {
+    margin-top: 32px;
+    width: fit-content;
+}

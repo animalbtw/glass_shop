@@ -1,0 +1,23 @@
+.wrapper {
+    border-radius: 14px;
+    background: #FFF;
+    padding: 12px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 64px;
+}
+
+.icon {
+
+}
+
+.text {
+    margin-left: 24px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #282828;
+}

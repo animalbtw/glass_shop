@@ -1,0 +1,62 @@
+@import 'src/assets/styles/colors';
+
+.filter_wrapper {
+    width: 286px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-right: 16px;
+}
+
+.title_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 27px;
+}
+
+.block {
+    color: $black-100;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.clear {
+    cursor: pointer;
+    color: $white-50;
+    border: 2px solid $white-50;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 111px;
+    padding: 8px 16px;
+    border-radius: 24px;
+    text-align: right;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    gap: 9px;
+}
+
+.search {
+    display: flex;
+    width: 286px;
+    height: 49px;
+    padding: 15px 24px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: $white-100;
+
+    box-sizing: border-box;
+    outline: none;
+    color: $black-100;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+}

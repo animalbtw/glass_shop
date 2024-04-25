@@ -1,0 +1,59 @@
+@import 'src/assets/styles/colors';
+
+.columns {
+    padding: 50px 0 56px 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .title_block {
+        display: flex;
+
+    }
+
+    .icon {
+        position: relative;
+        width: 24px;
+        height: 24px;
+    }
+
+    .title {
+        color: $white-100;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .links {
+        margin-top: 26px;
+        text-align: left;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 16px 0;
+    }
+
+    .with_icons {
+        flex-direction: row;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .link {
+        color: $white-100;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        gap: 0;
+    }
+}

@@ -1,0 +1,43 @@
+@import 'src/assets/styles/colors';
+
+.button {
+    cursor: pointer;
+    padding: 18px 37px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.primary {
+    background-color: $white-100;
+    color: $black-100;
+}
+
+.primary:hover {
+    background-color: $white-hover;
+}
+
+.secondary {
+    background-color: $primary-10;
+    color: $white-100;
+}
+
+.secondary:hover {
+    background-color: $primary-50;
+}
+
+.tertiary {
+
+}
+
+.tertiary:hover {
+
+}

@@ -1,0 +1,63 @@
+@import 'src/assets/styles/colors';
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 23px 45px;
+    position: relative;
+    z-index: 100;
+}
+
+.search_block {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo {
+    position: relative;
+    width: 268px;
+    height: 42px;
+}
+
+.search {
+    margin-left: 51px;
+    .search_input {
+        border-radius: 32px;
+        background: $bg-50;
+        border: none;
+        outline: none;
+        padding: 12px 24px;
+        color: #282828;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    .search_input:focus {
+        border-radius: 32px;
+        background: $white-100;
+        border: none;
+        outline: none;
+        padding: 12px 24px;
+        color: $black-100;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+
+    .mainLoginInput::-webkit-input-placeholder {
+        font-family: 'Montserrat';
+    }
+    .mainLoginInput:-ms-input-placeholder {
+        font-family: 'Montserrat';
+    }
+    .mainLoginInput:-moz-placeholder {
+        font-family: 'Montserrat';
+    }
+    .mainLoginInput::-moz-placeholder {
+        font-family: 'Montserrat';
+    }
+}
