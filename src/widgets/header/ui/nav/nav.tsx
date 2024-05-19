@@ -1,13 +1,17 @@
+'use client'
 import React from 'react';
 
 import Link from "@/shared/ui/link/link";
 import Button from "@/shared/ui/button/button";
 import {Navigation} from "@/constants/navigation";
-import {button_variant} from "@/shared/ui/button/button.type";
+import {button_type, button_variant} from "@/shared/ui/button/button.type";
 import style from './nav.module.scss'
 import DropdownMenu from "@/shared/ui/dropdown-menu/DropdownMenu";
+import { useAppContext } from '@/context';
 
 const Nav = () => {
+  const { setModalOpen } = useAppContext();
+
   return (
     <nav className={style.nav}>
       {
@@ -31,12 +35,20 @@ const Nav = () => {
           }
 
           if (type === 'button') {
+            const buttonClickHandler = () => {
+              if (icon === 'booking') {
+                return setModalOpen(true)
+              }
+
+              return href
+            }
             return (
               <Button
                 key={text}
                 icon={icon}
-                type={button_variant.tertiary}
+                type={icon === 'booking' ? button_type.default : button_type.link}
                 className={style.button}
+                onClick={buttonClickHandler}
               >
                 {text}
               </Button>

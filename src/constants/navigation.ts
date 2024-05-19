@@ -47,7 +47,7 @@ export const Navigation: NavigationType[] = [
   {
     icon: 'booking',
     activeIcon: 'booking',
-    href: '/',
+    href: '',
     text: 'запись',
     type: 'button'
   },

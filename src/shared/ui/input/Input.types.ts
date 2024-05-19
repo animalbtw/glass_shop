@@ -6,4 +6,6 @@ export type InputTypes = {
   placeholder: string
   className?: string
   wrapperClassName?: string
+  isIcon?: boolean
+  isPhone?: boolean
 }

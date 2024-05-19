@@ -17,6 +17,7 @@ import link_down from "../assets/pic/home/link_down.svg";
 import style from "./page.module.scss";
 import { HomePageCatalogSlide } from "@/shared/ui/homePageCatalogSlide/homePageCatalogSlide";
 import { EquipmentCard } from "@/widgets/equipment/equipment";
+import BookingAction from "@/entities/BookingActions";
 
 export const metadata: Metadata = {
   title: "Точная оптика",
@@ -30,10 +31,7 @@ const Page = () => {
           <div className={style.left_part_header}>
             <Image src={mainlogo} alt={"точная оптика"} layout={"fill"} />
           </div>
-          <div className={style.left_part_actions}>
-            <Button variant={button_variant.secondary}>Заказать</Button>
-            <Button>Записаться на приём</Button>
-          </div>
+          <BookingAction />
         </div>
         <div className={style.right_part_image}>
           <Image src={homemain} alt={"image"} layout={"fill"} />
@@ -94,7 +92,13 @@ const Page = () => {
           />
         </div>
         <div className={style.catalog_action}>
-          <Button variant={button_variant.secondary}>Перейти в каталог</Button>
+          <Button
+            onClick={"/catalog"}
+            type={button_type.link}
+            variant={button_variant.secondary}
+          >
+            Перейти в каталог
+          </Button>
         </div>
       </div>
       <div className={style.employee}>
@@ -114,7 +118,9 @@ const Page = () => {
             на странице «о нас».
           </div>
           <div className={style.emplyee_description_action}>
-            <Button>Подробнее о нас</Button>
+            <Button type={button_type.link} onClick={"/about-us"}>
+              Подробнее о нас
+            </Button>
           </div>
         </div>
       </div>
