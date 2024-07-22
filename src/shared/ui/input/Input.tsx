@@ -3,9 +3,9 @@
 import React from "react";
 import cn from "classnames";
 import InputMask from "react-input-mask";
-import { InputTypes } from "@/shared/ui/input/Input.types";
+import { InputTypes } from "../../../shared/ui/input/Input.types";
 import Image from "next/image";
-import { ICONS_MAP } from "@/constants/icon/icon";
+import { ICONS_MAP } from "../../../constants/icon/icon";
 import style from "./Input.module.scss";
 
 const Input = ({

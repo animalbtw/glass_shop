@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Nav from "@/widgets/footer/ui/nav/nav";
+import Nav from "../../../widgets/footer/ui/nav/nav";
 import style from './footer.module.scss';
 
 const Footer = () => {

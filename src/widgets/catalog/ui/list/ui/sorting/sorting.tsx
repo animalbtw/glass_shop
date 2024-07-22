@@ -3,10 +3,9 @@
 import React, { LegacyRef, useState } from "react";
 import Image from "next/image";
 
-import { useClickOutside } from "@/shared/hooks/useClickOutside";
-import Toggle from "@/widgets/catalog/ui/list/ui/sorting/ui/toggle/toggle";
-import { ICONS_MAP } from "@/constants/icon/icon";
-import { SortingType } from "@/widgets/catalog/ui/list/ui/sorting/sorting.type";
+import Toggle from "../../../../../../widgets/catalog/ui/list/ui/sorting/ui/toggle/toggle";
+import { ICONS_MAP } from "../../../../../../constants/icon/icon";
+import { SortingType } from "../../../../../../widgets/catalog/ui/list/ui/sorting/sorting.type";
 import style from "./sorting.module.scss";
 
 const Sorting = (props: SortingType) => {

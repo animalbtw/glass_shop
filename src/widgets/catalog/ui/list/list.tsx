@@ -1,11 +1,10 @@
 import React, {useState} from 'react';
 
-import CatalogCard from "@/widgets/catalog-card/catalog-card";
-import Banner from "@/widgets/banner/banner";
-import Sorting from "@/widgets/catalog/ui/list/ui/sorting/sorting";
-import {list_mocks} from "@/widgets/catalog/ui/list/list.constants";
-import {button_type} from "@/shared/ui/button/button.type";
-import white_image from '../../../../assets/pic/banner/white_banner.png'
+import CatalogCard from "../../../../widgets/catalog-card/catalog-card";
+import Banner from "../../../../widgets/banner/banner";
+import Sorting from "../../../../widgets/catalog/ui/list/ui/sorting/sorting";
+import {list_mocks} from "../../../../widgets/catalog/ui/list/list.constants";
+import {button_type} from "../../../../shared/ui/button/button.type";
 import dark_image from '../../../../assets/pic/banner/darkbanner.png'
 import style from './list.module.scss'
 

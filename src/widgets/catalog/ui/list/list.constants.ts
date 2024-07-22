@@ -1,6 +1,5 @@
-import {CatalogCardEntityType} from "@/widgets/catalog-card/catalog-card.type";
+import {CatalogCardEntityType} from "../../../../widgets/catalog-card/catalog-card.type";
 import image from '../../../../assets/pic/catalog/CardPic.png'
-import glass_placeholder from '../../../../assets/pic/catalog/glass_placeholder.png'
 
 export const list_mocks: CatalogCardEntityType[] = [
   {

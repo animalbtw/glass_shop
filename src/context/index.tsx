@@ -5,7 +5,7 @@ import { createContext, useContext, useState } from "react";
 const AppContext = createContext<any>(undefined)
 
 export function AppWrapper({children}: {children: React.ReactNode}) {
-    const [isModalOpen, setModalOpen] = useState(true)
+    const [isModalOpen, setModalOpen] = useState(false)
 
     return (
         <AppContext.Provider value={{isModalOpen, setModalOpen}}>

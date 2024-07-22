@@ -3,15 +3,15 @@
 import React from 'react';
 import Image from "next/image";
 
-import {ICONS_MAP} from "@/constants/icon/icon";
-import Details from "@/shared/ui/details/details";
-import Age from "@/widgets/catalog/ui/filter/age/age";
-import Brand from "@/widgets/catalog/ui/filter/brand/brand";
-import Type from "@/widgets/catalog/ui/filter/type/type";
-import Price from "@/widgets/catalog/ui/filter/price/price";
-import Color from "@/widgets/catalog/ui/filter/color/color";
+import {ICONS_MAP} from "../../../../constants/icon/icon";
+import Details from "../../../../shared/ui/details/details";
+import Age from "../../../../widgets/catalog/ui/filter/age/age";
+import Brand from "../../../../widgets/catalog/ui/filter/brand/brand";
+import Type from "../../../../widgets/catalog/ui/filter/type/type";
+import Price from "../../../../widgets/catalog/ui/filter/price/price";
+import Color from "../../../../widgets/catalog/ui/filter/color/color";
 import style from './filter.module.scss'
-import Input from "@/shared/ui/input/Input";
+import Input from "../../../../shared/ui/input/Input";
 
 const Filter = () => {
   return (

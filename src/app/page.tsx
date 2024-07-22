@@ -2,9 +2,9 @@ import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 
-import Button from "@/shared/ui/button/button";
-import { Slider } from "@/shared/ui/slider/slider";
-import { button_type, button_variant } from "@/shared/ui/button/button.type";
+import Button from "../shared/ui/button/button";
+import { Slider } from "../shared/ui/slider/slider";
+import { button_type, button_variant } from "../shared/ui/button/button.type";
 
 import homemain from "../assets/pic/home/O_Sec01ContentRight.png";
 import pattern from "../assets/pic/home/A_Sec03Background.png";
@@ -15,9 +15,9 @@ import catalogGlass from "../assets/pic/home/catalogGlass.png";
 import posib_img from "../assets/pic/home/posib_img.png";
 import link_down from "../assets/pic/home/link_down.svg";
 import style from "./page.module.scss";
-import { HomePageCatalogSlide } from "@/shared/ui/homePageCatalogSlide/homePageCatalogSlide";
-import { EquipmentCard } from "@/widgets/equipment/equipment";
-import BookingAction from "@/entities/BookingActions";
+import { HomePageCatalogSlide } from "../shared/ui/homePageCatalogSlide/homePageCatalogSlide";
+import { EquipmentCard } from "../widgets/equipment/equipment";
+import BookingAction from "../entities/BookingActions";
 
 export const metadata: Metadata = {
   title: "Точная оптика",

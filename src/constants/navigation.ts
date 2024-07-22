@@ -1,4 +1,4 @@
-import {ICONS_MAP} from "@/constants/icon/icon";
+import {ICONS_MAP} from "../constants/icon/icon";
 
 type NavigationType = {
   icon: keyof typeof ICONS_MAP

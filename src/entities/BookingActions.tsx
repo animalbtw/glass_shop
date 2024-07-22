@@ -1,8 +1,8 @@
 'use client'
 
-import { useAppContext } from "@/context";
-import Button from "@/shared/ui/button/button";
-import { button_type, button_variant } from "@/shared/ui/button/button.type";
+import { useAppContext } from "../context";
+import Button from "../shared/ui/button/button";
+import { button_type, button_variant } from "../shared/ui/button/button.type";
 
 import style from './BookingActions.module.scss'
 

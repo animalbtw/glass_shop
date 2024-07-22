@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from "next/image";
 
-import {ChessType} from "@/widgets/chess/chess.type";
+import {ChessType} from "../../widgets/chess/chess.type";
 import style from './chess.module.scss'
 
 const Chess = ({title, image, description}: ChessType) => {

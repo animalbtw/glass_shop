@@ -4,8 +4,8 @@ import React, {useState} from 'react';
 import cn from 'classnames';
 import Image from "next/image";
 
-import {DetailsType} from "@/shared/ui/details/details.type";
-import {ICONS_MAP} from "@/constants/icon/icon";
+import {DetailsType} from "../../../shared/ui/details/details.type";
+import {ICONS_MAP} from "../../../constants/icon/icon";
 import style from './details.module.scss';
 
 const Details = (

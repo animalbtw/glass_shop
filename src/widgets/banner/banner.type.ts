@@ -1,5 +1,4 @@
-import {button_type} from "@/shared/ui/button/button.type";
-import dark_banner from "@/assets/pic/banner/dark_banner.png";
+import {button_type} from "../../shared/ui/button/button.type";
 
 export type BannerType = {
   title: string

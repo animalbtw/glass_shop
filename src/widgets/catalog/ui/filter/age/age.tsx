@@ -1,7 +1,7 @@
 'use client'
 
 import React, {useState} from 'react';
-import Checkbox from "@/shared/ui/checkbox/checkbox";
+import Checkbox from "../../../../../shared/ui/checkbox/checkbox";
 
 import style from './age.module.scss'
 

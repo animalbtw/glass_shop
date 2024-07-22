@@ -2,9 +2,9 @@ import React from 'react';
 import Image from "next/image";
 import cn from 'classnames';
 
-import Link from "@/shared/ui/link/link";
-import {links} from "@/widgets/footer/constants/constants";
-import {ICONS_MAP} from "@/constants/icon/icon";
+import Link from "../../../../shared/ui/link/link";
+import {links} from "../../../../widgets/footer/constants/constants";
+import {ICONS_MAP} from "../../../../constants/icon/icon";
 import style from './nav.module.scss';
 
 const Nav = () => {

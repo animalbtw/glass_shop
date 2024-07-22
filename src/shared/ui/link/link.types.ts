@@ -1,5 +1,5 @@
 import React from "react";
-import {ICONS_MAP} from "@/constants/icon/icon";
+import {ICONS_MAP} from "../../../constants/icon/icon";
 
 export type LinkTypesProps = {
   children?: React.ReactNode | string

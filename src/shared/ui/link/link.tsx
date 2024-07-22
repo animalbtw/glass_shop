@@ -4,8 +4,8 @@ import Image from "next/image";
 import Link from 'next/link';
 import cn from 'classnames';
 
-import {LinkTypesProps} from "@/shared/ui/link/link.types";
-import {ICONS_MAP} from "@/constants/icon/icon";
+import {LinkTypesProps} from "../../../shared/ui/link/link.types";
+import {ICONS_MAP} from "../../../constants/icon/icon";
 import style from './link.module.scss'
 
 const LinkKit = (

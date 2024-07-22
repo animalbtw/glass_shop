@@ -3,9 +3,9 @@
 import React from 'react';
 import Image from "next/image";
 
-import Input from "@/shared/ui/input/Input";
-import {ICONS_MAP} from "@/constants/icon/icon";
-import Checkbox from "@/shared/ui/checkbox/checkbox";
+import Input from "../../../../../shared/ui/input/Input";
+import {ICONS_MAP} from "../../../../../constants/icon/icon";
+import Checkbox from "../../../../../shared/ui/checkbox/checkbox";
 import style from './brand.module.scss';
 
 const Brand = () => {

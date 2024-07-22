@@ -3,9 +3,9 @@
 import React from 'react';
 import Image from "next/image";
 
-import Checkbox from "@/shared/ui/checkbox/checkbox";
-import Input from "@/shared/ui/input/Input";
-import {ICONS_MAP} from "@/constants/icon/icon";
+import Checkbox from "../../../../../shared/ui/checkbox/checkbox";
+import Input from "../../../../../shared/ui/input/Input";
+import {ICONS_MAP} from "../../../../../constants/icon/icon";
 import style from './color.module.scss'
 
 const Color = () => {

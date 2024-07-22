@@ -1,12 +1,12 @@
 import React from 'react';
 import {Metadata} from "next";
 
-import Breadcrumbs from "@/shared/ui/breadcrumbs/breadcrumbs";
-import Filter from "@/widgets/catalog/ui/filter/filter";
-import List from "@/widgets/catalog/ui/list/list";
-import Container from "@/widgets/container/container";
+import Breadcrumbs from "../../shared/ui/breadcrumbs/breadcrumbs";
+import Filter from "../../widgets/catalog/ui/filter/filter";
+import List from "../../widgets/catalog/ui/list/list";
+import Container from "../../widgets/container/container";
 
-import style from './page.module.scss'
+import style from '../../assets/styles/catalog.module.scss'
 
 export const metadata: Metadata = {
   title: 'Точная оптика | Каталог',

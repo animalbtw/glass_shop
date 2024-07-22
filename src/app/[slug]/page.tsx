@@ -1,20 +1,19 @@
 import React from 'react';
 import { Metadata } from 'next';
 
-import Breadcrumbs from "@/shared/ui/breadcrumbs/breadcrumbs";
-import Container from "@/widgets/container/container";
-import Button from '@/shared/ui/button/button';
-import { button_variant } from '@/shared/ui/button/button.type';
-import style from './page.module.scss'
+import Breadcrumbs from "../../shared/ui/breadcrumbs/breadcrumbs";
+import Container from "../../widgets/container/container";
+import Button from '../../shared/ui/button/button';
+import { button_variant } from '../../shared/ui/button/button.type';
+import style from '../../assets/styles/slug.module.scss'
 
-export async function generateMetadata({ params }) {
+export async function generateMetadata({ params }: any) {
   return {
     title: `Точная оптика | ${params?.slug}`,
   }
 }
 
-const ItemPage = (props) => {
-  console.log(props)
+const ItemPage = (props: any = {}) => {
   return (
     <Container>
       <div className={style.pageWrapper}>

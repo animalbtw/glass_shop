@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from "next/image";
 
-import {PersonalCardType} from "@/widgets/personal-card/personal-card.type";
+import {PersonalCardType} from "./personal-card.type";
 import personal from '../../assets/pic/personal/personal.png'
 import big_personal from '../../assets/pic/personal/Q_AboutContentSpecialistsCardsMainPic.png'
 import style from './personal-card.module.scss'

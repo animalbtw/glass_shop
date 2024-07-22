@@ -1,7 +1,7 @@
 import React from 'react';
 
 import style from './toggle.module.scss';
-import Radio from "@/shared/ui/radio/radio";
+import Radio from "../../../../../../../../shared/ui/radio/radio";
 
 const Toggle = () => {
   return (

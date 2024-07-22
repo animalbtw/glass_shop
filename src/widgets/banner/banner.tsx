@@ -4,9 +4,9 @@ import React from 'react';
 import cn from 'classnames';
 import Image from "next/image";
 
-import Button from "@/shared/ui/button/button";
-import {BannerType} from "@/widgets/banner/banner.type";
-import {button_type, button_variant} from "@/shared/ui/button/button.type";
+import Button from "../../shared/ui/button/button";
+import {BannerType} from "../../widgets/banner/banner.type";
+import {button_type, button_variant} from "../../shared/ui/button/button.type";
 import style from './banner.module.scss';
 
 const DEFAULT_BACKGROUND = '#FFFFFF'

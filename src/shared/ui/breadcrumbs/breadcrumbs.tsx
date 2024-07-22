@@ -4,9 +4,9 @@ import React from 'react';
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 
-import Link from "@/shared/ui/link/link";
-import {BreadcrumbsType} from "@/shared/ui/breadcrumbs/breadcrumbs.type";
-import {ICONS_MAP} from "@/constants/icon/icon";
+import Link from "../../../shared/ui/link/link";
+import {BreadcrumbsType} from "../../../shared/ui/breadcrumbs/breadcrumbs.type";
+import {ICONS_MAP} from "../../../constants/icon/icon";
 import style from './breadcrumbs.module.scss';
 
 const Breadcrumbs = (

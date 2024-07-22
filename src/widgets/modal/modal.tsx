@@ -2,18 +2,17 @@
 
 import ReactDOM from "react-dom";
 import Image from "next/image";
-import cn from "classnames";
 
 import close from "../../assets/pic/modal/exit.svg";
 import style from "./modal.module.scss";
-import Button from "@/shared/ui/button/button";
-import Input from "@/shared/ui/input/Input";
-import InputDropdown from "@/shared/ui/input-dropdown/inputDropdown";
-import { SERVICE_OPTIONS, TIME_OPTIONS } from "@/constants/select-constants";
-import Datepicker from "@/shared/ui/datepicker/datepicker";
-import { button_variant } from "@/shared/ui/button/button.type";
+import Button from "../../shared/ui/button/button";
+import Input from "../../shared/ui/input/Input";
+import InputDropdown from "../../shared/ui/input-dropdown/InputDropdown";
+import { SERVICE_OPTIONS, TIME_OPTIONS } from "../../constants/select-constants";
+import Datepicker from "../../shared/ui/datepicker/datepicker";
+import { button_variant } from "../../shared/ui/button/button.type";
 import { useState } from "react";
-import { useAppContext } from "@/context";
+import { useAppContext } from "../../context";
 
 type ModalProps = {
 };

@@ -1,5 +1,4 @@
-import axios from "@/shared/api/axios";
-
+import axios from "axios";
 export class Catalog {
   public getTypes() {
     try {
@@ -10,7 +9,7 @@ export class Catalog {
     }
   }
 
-  public setTypes(type) {
+  public setTypes(type: any) {
 
   }
 }

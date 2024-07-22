@@ -4,15 +4,14 @@ import React from 'react';
 import Image from "next/image";
 import {useRouter} from "next/navigation";
 
-import {CatalogCardType} from "@/widgets/catalog-card/catalog-card.type";
-import {priceSerializer} from "@/shared/utils/StringHandler";
+import {priceSerializer} from "../../shared/utils/StringHandler";
 import glass_placeholder from '../../assets/pic/catalog/glass_placeholder.png'
 import style from './catalog-card.module.scss';
 
 const CatalogCard = (
   {
     entity
-  }: CatalogCardType
+  }: any
 ) => {
   const router = useRouter()
   return (

@@ -4,7 +4,7 @@ import React from 'react';
 import Image from "next/image";
 import cn from 'classnames';
 
-import {type NewsType} from "@/widgets/news/news.type";
+import {type NewsType} from "../../widgets/news/news.type";
 import big from '../../assets/pic/news/bignews.png'
 import medium from '../../assets/pic/news/mediumnews.png'
 import small from '../../assets/pic/news/sm.png'

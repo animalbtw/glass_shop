@@ -3,10 +3,10 @@ import React, {useState} from 'react';
 import Image from "next/image";
 import cn from 'classnames';
 
-import Link from "@/shared/ui/link/link";
-import {DropdownMenuType} from "@/shared/ui/dropdown-menu/DropdownMenu.type";
-import {ICONS_MAP} from "@/constants/icon/icon";
-import {useClickOutside} from "@/shared/hooks/useClickOutside";
+import Link from "../../../shared/ui/link/link";
+import {DropdownMenuType} from "../../../shared/ui/dropdown-menu/DropdownMenu.type";
+import {ICONS_MAP} from "../../../constants/icon/icon";
+import {useClickOutside} from "../../../shared/hooks/useClickOutside";
 import style from './DropdownMenu.module.scss';
 
 const DropdownMenu = (

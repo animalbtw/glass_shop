@@ -4,12 +4,12 @@ import React, { useState } from "react";
 import Image from "next/image";
 
 import logotype from "../../assets/pic/logotypes/logotype.svg";
-import Nav from "@/widgets/header/ui/nav/nav";
-import Input from "@/shared/ui/input/Input";
+import Nav from "../../widgets/header/ui/nav/nav";
+import Input from "../../shared/ui/input/Input";
 import style from "./header.module.scss";
-import { useAppContext } from "@/context";
+import { useAppContext } from "../../context";
 import Modal from "../modal/modal";
-import LinkKit from "@/shared/ui/link/link";
+import LinkKit from "../../shared/ui/link/link";
 
 const Header = () => {
   const [search, setSearch] = useState("");

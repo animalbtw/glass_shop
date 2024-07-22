@@ -1,7 +1,7 @@
 import React from 'react';
 import cn from 'classnames';
 
-import {RadioType} from "@/shared/ui/radio/radio.type";
+import {RadioType} from "../../../shared/ui/radio/radio.type";
 import style from './radio.module.scss';
 
 const Radio = (

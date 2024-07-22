@@ -3,7 +3,7 @@
 import React, {useState} from 'react';
 
 import style from './type.module.scss';
-import Checkbox from "@/shared/ui/checkbox/checkbox";
+import Checkbox from "../../../../../shared/ui/checkbox/checkbox";
 
 const Type = () => {
   const [design, setDesign] = useState(false)

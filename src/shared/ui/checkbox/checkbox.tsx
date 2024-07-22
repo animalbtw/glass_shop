@@ -2,8 +2,8 @@ import React from 'react';
 import Image from "next/image";
 import cn from 'classnames'
 
-import {CheckboxType} from "@/shared/ui/checkbox/checkbox.type";
-import {ICONS_MAP} from "@/constants/icon/icon";
+import {CheckboxType} from "../../../shared/ui/checkbox/checkbox.type";
+import {ICONS_MAP} from "../../../constants/icon/icon";
 import style from './checkbox.module.scss';
 
 const Checkbox = (

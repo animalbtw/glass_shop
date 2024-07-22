@@ -1,13 +1,13 @@
-import React from "react";
+import React, {useEffect} from "react";
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 
-import Header from "@/widgets/header/header";
-import Footer from "@/widgets/footer/ui/footer";
+import Header from "../widgets/header/header";
+import Footer from "../widgets/footer/ui/footer";
 import "react-datepicker/dist/react-datepicker.css";
 
 import "./globals.scss";
-import { AppWrapper, useAppContext } from "@/context";
+import { AppWrapper, useAppContext } from "../context";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -20,6 +20,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+
   return (
     <html lang="ru">
       <body className={montserrat.className}>

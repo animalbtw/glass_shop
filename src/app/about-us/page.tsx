@@ -2,20 +2,19 @@ import React from 'react';
 import Image from "next/image";
 import {Metadata} from "next";
 
-import Container from "@/widgets/container/container";
-import Breadcrumbs from "@/shared/ui/breadcrumbs/breadcrumbs";
+import Container from "../../widgets/container/container";
+import Breadcrumbs from "../../shared/ui/breadcrumbs/breadcrumbs";
 import leftSide from '../../assets/pic/personal/1.svg'
 import rightSide from '../../assets/pic/personal/3.svg'
 import timeline from '../../assets/pic/personal/timeline.png'
 import doc from '../../assets/pic/personal/2.svg'
 import cert from '../../assets/pic/certificates/cert.png'
-import style from './page.module.scss'
-import Banner from "@/widgets/banner/banner";
-import dark_banner from "@/assets/pic/banner/dark_banner.png";
-import {button_type, button_variant} from "@/shared/ui/button/button.type";
-import Button from "@/shared/ui/button/button";
-import PersonalCard from "@/widgets/personal-card/personal-card";
-import white_image from "@/assets/pic/banner/white_banner.png";
+import style from '../../assets/styles/about_us.module.scss'
+import Banner from "../../widgets/banner/banner";
+import dark_banner from "../../assets/pic/banner/dark_banner.png";
+import {button_type, button_variant} from "../../shared/ui/button/button.type";
+import Button from "../../shared/ui/button/button";
+import PersonalCard from "../../widgets/personal-card/personal-card";
 
 export const metadata: Metadata = {
   title: 'Точная оптика | Статья',
@@ -125,6 +124,7 @@ const AboutUs = () => {
               description={'У вас есть сомнения в качестве своего зрения? Мы предлагаем вам бесплатную первичную диагностику в нашей оптике!'}
               type={'dark'}
               background={gradient}
+              //@ts-ignore
               image={{url: dark_banner, type: 'default'}}
               button={{
                 text: 'Записаться на приём',

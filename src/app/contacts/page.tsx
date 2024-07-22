@@ -1,13 +1,12 @@
+
 import React from 'react';
 
-import Container from "@/widgets/container/container";
-import Breadcrumbs from "@/shared/ui/breadcrumbs/breadcrumbs";
-import Banner from "@/widgets/banner/banner";
-import {button_type} from "@/shared/ui/button/button.type";
-import banner_bg from '../../assets/pic/contacts/contacts_banner.png'
-import style from './page.module.scss'
-import dark_image from "@/assets/pic/banner/darkbanner.png";
-import Tabs from "@/widgets/tabs/tabs";
+import Container from "../../widgets/container/container";
+import Breadcrumbs from "../../shared/ui/breadcrumbs/breadcrumbs";
+import Banner from "../../widgets/banner/banner";
+import {button_type} from "../../shared/ui/button/button.type";
+import style from '../..//assets/styles/contacts.module.scss'
+import Tabs from "../../widgets/tabs/tabs";
 import {Metadata} from "next";
 
 export const metadata: Metadata = {

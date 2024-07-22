@@ -6,6 +6,8 @@ import ru from "date-fns/locale/ru";
 
 import style from "./datepicker.module.scss";
 
+              //@ts-ignore
+// eslint-disable-next-line react/display-name
 const CustomInput = forwardRef(({ value, onClick, placeholder }, ref) => {
   return (
     <div className={style.customInput} onClick={onClick} ref={ref}>

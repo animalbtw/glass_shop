@@ -3,7 +3,7 @@
 import React from 'react';
 import {Range as ReactRange, getTrackBackground} from "react-range";
 
-import {RangeType, RangeTypeProps} from "@/shared/ui/range/range.type";
+import {RangeType, RangeTypeProps} from "../../../shared/ui/range/range.type";
 import style from './range.module.scss';
 
 const GREY =  '#BFC2C8';

@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 
-import Breadcrumbs from "@/shared/ui/breadcrumbs/breadcrumbs";
-import Container from "@/widgets/container/container";
-import style from './page.module.scss';
-import News from "@/widgets/news/news";
-import {Metadata} from "next";
+import Breadcrumbs from "../../shared/ui/breadcrumbs/breadcrumbs";
+import Container from "../../widgets/container/container";
+import style from '../../assets/styles/news.module.scss'
+import News from "../../widgets/news/news";
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Точная оптика | Новости',
-}
+  title: "Точная оптика | Новости",
+};
 
 const NewsPage = () => {
   return (
@@ -17,86 +17,103 @@ const NewsPage = () => {
         <Breadcrumbs
           chain={[
             {
-              text: 'Главная',
-              href: '/'
+              text: "Главная",
+              href: "/",
             },
             {
-              text: 'Новости',
-              href: '/'
+              text: "Новости",
+              href: "/",
             },
           ]}
         />
-        <div className={style.page_title}>
-          Последние новости
-        </div>
+        <div className={style.page_title}>Последние новости</div>
         <div className={style.news_block}>
-          <div style={{gridArea: 'big'}}>
+          <div style={{ gridArea: "big" }}>
             <News
-              size={'l'}
+              size={"l"}
               entity={{
+                //@ts-ignore
                 id: Math.random() as string,
-                title: 'Относительно короткое название новости, которое умещается в две строки',
-                date: '14.12.2023'
+                title:
+                  "Относительно короткое название новости, которое умещается в две строки",
+                date: "14.12.2023",
               }}
             />
           </div>
-          <div style={{gridArea: 'medium1'}}>
+          <div style={{ gridArea: "medium1" }}>
             <News
-              size={'m'}
+              size={"m"}
               entity={{
+                //@ts-ignore
                 id: Math.random() as string,
-                title: 'Относительно короткое название новости, которое умещается в две строки',
-                date: '14.12.2023'
+                title:
+                  "Относительно короткое название новости, которое умещается в две строки",
+                date: "14.12.2023",
               }}
             />
           </div>
-          <div style={{gridArea: 'medium2'}}>
+          <div style={{ gridArea: "medium2" }}>
             <News
-              size={'m'}
+              size={"m"}
               entity={{
+                //@ts-ignore
+
                 id: Math.random() as string,
-                title: 'Относительно короткое название новости, которое умещается в две строки',
-                date: '14.12.2023'
+                title:
+                  "Относительно короткое название новости, которое умещается в две строки",
+                date: "14.12.2023",
               }}
             />
           </div>
-          <div style={{gridArea: 'small1'}}>
+          <div style={{ gridArea: "small1" }}>
             <News
-              size={'s'}
+              size={"s"}
               entity={{
+                //@ts-ignore
+
                 id: Math.random() as string,
-                title: 'Относительно короткое название новости, которое умещается в две строки',
-                date: '14.12.2023'
+                title:
+                  "Относительно короткое название новости, которое умещается в две строки",
+                date: "14.12.2023",
               }}
             />
           </div>
-          <div style={{gridArea: 'small2'}}>
+          <div style={{ gridArea: "small2" }}>
             <News
-              size={'s'}
+              size={"s"}
               entity={{
+                //@ts-ignore
+
                 id: Math.random() as string,
-                title: 'Относительно короткое название новости, которое умещается в две строки',
-                date: '14.12.2023'
+                title:
+                  "Относительно короткое название новости, которое умещается в две строки",
+                date: "14.12.2023",
               }}
             />
           </div>
-          <div style={{gridArea: 'small3'}}>
+          <div style={{ gridArea: "small3" }}>
             <News
-              size={'s'}
+              size={"s"}
               entity={{
+                //@ts-ignore
+
                 id: Math.random() as string,
-                title: 'Относительно короткое название новости, которое умещается в две строки',
-                date: '14.12.2023'
+                title:
+                  "Относительно короткое название новости, которое умещается в две строки",
+                date: "14.12.2023",
               }}
             />
           </div>
-          <div style={{gridArea: 'small4'}}>
+          <div style={{ gridArea: "small4" }}>
             <News
-              size={'s'}
+              size={"s"}
               entity={{
+                //@ts-ignore
+
                 id: Math.random() as string,
-                title: 'Относительно короткое название новости, которое умещается в две строки',
-                date: '14.12.2023'
+                title:
+                  "Относительно короткое название новости, которое умещается в две строки",
+                date: "14.12.2023",
               }}
             />
           </div>
